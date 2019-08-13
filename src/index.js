@@ -9,7 +9,9 @@ import data from './products.json'
 function App () {
   return (
     <div style={{width: "100%"}}>
-      <ProductListHeading heading="Product List" />
+      <ProductListHeading>
+        Product List
+      </ProductListHeading>
       <ProductList items={data} />
     </div>
   )

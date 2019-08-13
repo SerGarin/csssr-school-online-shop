@@ -10,7 +10,7 @@ const styled = {
 }
 
 function ProductListHeading (props) {
-    return <h2 style={styled}>{props.heading}</h2>
+    return <h2 style={styled}>{props.children}</h2>
 }
 
 export default ProductListHeading
