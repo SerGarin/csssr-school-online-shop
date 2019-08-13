@@ -1,26 +1,46 @@
 [
     {
         "id": 1,
-        "name": "Имя товара1"
+        "isInStock": true,
+        "img": "https://www.slamdunk.su/thumbs/5b7551b2cd88bBQ8452-401-PHSRH000-2000.jpeg",
+        "title": "Название первого товара",
+        "price": "3 000",
+        "subPriceContent": "4 000",
+        "maxRating": 5,
+        "rating": 4,
+        "ratingComponent": "undefined"
     },
     {
         "id": 2,
-        "name": "Имя товара1"
+        "isInStock": true,
+        "img": "https://www.slamdunk.su/thumbs/5b7551b2cd88bBQ8452-401-PHSRH000-2000.jpeg",
+        "title": "Название второго товара",
+        "price": "3 000",
+        "subPriceContent": "4 000",
+        "maxRating": 5,
+        "rating": 4,
+        "ratingComponent": "undefined"
     },
     {
         "id": 3,
-        "name": "Имя товара1"
+        "isInStock": true,
+        "img": "https://www.slamdunk.su/thumbs/5b7551b2cd88bBQ8452-401-PHSRH000-2000.jpeg",
+        "title": "Название третьего товара",
+        "price": "3 000",
+        "subPriceContent": "4 000",
+        "maxRating": 5,
+        "rating": 4,
+        "ratingComponent": "undefined"
     },
     {
         "id": 4,
-        "name": "Имя товара1"
-    },
-    {
-        "id": 5,
-        "name": "Имя товара1"
-    },
-    {
-        "id": 6,
-        "name": "Имя товара1"
+        "isInStock": true,
+        "img": "https://www.slamdunk.su/thumbs/5b7551b2cd88bBQ8452-401-PHSRH000-2000.jpeg",
+        "title": "Название четвёртого товара",
+        "price": "3 000",
+        "subPriceContent": "4 000",
+        "maxRating": 5,
+        "rating": 4,
+        "ratingComponent": "undefined"
     }
 ]

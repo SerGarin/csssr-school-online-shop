@@ -1,18 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import ProductListHeading from './components/ProductListHeading'
+import ProductList from './components/ProductList'
+
 import data from './products.json'
 
 function App () {
   return (
-    <div>
-      <h2>Products List</h2>
-      <ul>
-        {
-          data.slice(0, 3).
-            map((item) => <li key={item.id}>{item.name}</li>)
-        }
-      </ul>
+    <div style={{width: "100%"}}>
+      <ProductListHeading>
+        Product List
+      </ProductListHeading>
+      <ProductList items={data} />
     </div>
   )
 }
